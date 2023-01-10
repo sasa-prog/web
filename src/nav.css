@@ -1,0 +1,32 @@
+.nav {
+  text-align: center;
+  background-color: #305044;
+  margin-bottom: 0;
+  display:block;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.navUl {
+  margin: 0;
+  padding: 0;
+}
+
+.navLi {
+  list-style: none;
+  display: inline-block;
+  width: 30%;
+  font-size: 30px;
+  color: #000;
+}
+
+.navLi:hover {
+  background-color: #308066;
+}
+
+.navLi a {
+  text-decoration: none;
+  color: #333;
+  font-size: 30px;
+}
