@@ -1,6 +1,7 @@
 import './Home.css';
 import { Link } from 'react-router-dom';
 
+//ホームページ用のコンポーネント
 const Home = (props) => {
   document.title = "Home | Sasa\'s website"
   return (
